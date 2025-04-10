@@ -1,0 +1,42 @@
+name: flutter_fancy_scroll
+description: "fancy scroll flutter"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  phosphor_flutter: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  flutter_gen_runner: ^5.10.0
+
+flutter_gen:
+  output: lib/core/assets/
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/banner.png
+    - assets/images/logo.png
+    - assets/images/image_1.jpg
+    - assets/images/image_2.jpg
+    - assets/images/image_3.jpg
+    - assets/images/image_4.jpg
+    - assets/images/image_5.jpg
+    - assets/images/image_6.jpg
+    - assets/images/image_7.jpg
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter.ttf
