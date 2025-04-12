@@ -22,7 +22,9 @@
 ## 🎥 Demo
 
 Here’s a preview of how the Fancy Scroll UI works:
-!(image)[https://res.cloudinary.com/dhhm853e7/image/upload/v1744434870/sample_fancy_scoll_flutter_sygolr.gif]
+![sample_fancy_scoll_flutter](https://github.com/user-attachments/assets/85a9b1fd-23b6-4b23-a942-6fcf5fe463e8)
+
+
 
 This showcases the `SliverAppBar`, dynamic content scrolling, and UI flexibility.
 
